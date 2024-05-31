@@ -1,0 +1,96 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.Image{
+  width: 140px;
+  height: 130px;
+  border-radius: 30px;
+  
+}
+
+.maindiv{
+  display: flex;
+  width: 480px;
+  margin-top: 15px;
+}
+
+.details{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.Imagediv{
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  
+}
+.title{
+  display: flex;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.price{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.Titlename{
+  margin-top: 30px;
+  margin-left: 350px;
+  font-weight: 600;
+  font-size: 35px;
+  color: #efcc00;
+}
+
+.OurMenu{
+  margin-top: 20px;
+  margin-left: 520px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.Titlepara{
+  margin-top: 20px;
+  margin-left: 350px;
+  font-weight: 500;
+  opacity: 0.5;
+  /* font-size: 27px; */
+}
+
+.Ordernow{
+  width: 110px;
+  min-height: 50px;
+  background-color: #efcc00;
+  color: aliceblue;
+  font-size: 15px;
+  border-color: #efcc00;
+  border-radius: 30px;
+  border-style: none;
+  margin-left: 530px;
+  margin-top: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.Lastpara{
+  margin-left: 470px;
+  margin-top: 30px;
+  opacity: 0.5px;
+}
+
+.remaining{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.Desc{
+  margin-left: 20px;
+  font-weight: 400;
+  opacity: 0.8;
+}
